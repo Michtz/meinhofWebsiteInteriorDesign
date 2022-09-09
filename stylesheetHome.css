@@ -1,0 +1,67 @@
+
+
+
+                    /*                                                                          */
+                                /* Stylesheet About Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+   
+
+                        /* Stylesheet Importieren */
+
+                        @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/main.css);
+                        @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/dreiecke.css);
+
+                        @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeTitelbild.css);
+                            @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeProjekte.css);
+                                @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeMain.css);
+                                    @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeAbout.css);
+                                        @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeAuftraggeberSlidebox.css);
+                                            @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/homeCss/homeKontakt.css);       
+                                            
+                        @import url(/Users/michael/Desktop/meinhofInnenarchitektur2.0/css/footer.css);
+
+
+                     
+                        /* Schriftarten Importieren */
+
+                        @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500&family=BIZ+UDPGothic&family=Julius+Sans+One&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Roboto+Mono:ital,wght@0,300;1,700&display=swap');
+            
+         
+            
+                        html{
+                            margin: 2vw;
+                            margin-top: 0;
+                            background-color: white;
+                            scroll-behavior: smooth;
+                        }
+                        
+                                body{
+                                    font-family: "Clash Grotesk";
+                                    background-color: #E5E5E5;
+                                    color: #7b7373;
+                                    margin: 0rem;
+                                    box-shadow: inset 0px 0px 49px 28px rgba(114, 109, 102, 0.154);
+                                }
+            
+                                        h1, h2, h3, h4{
+                                            font-family: "Julius Sans One";
+                                        }
+            
+                                                .header{
+                                                    text-align: center;
+                                                    margin-bottom: 6rem;
+                                                    margin-top: -3rem;
+                                                }
+            
+                                                        .header h2{
+                                                            font-size: 1.5rem;
+                                                            color: #7b7373;
+                                                        }
+            
+                       
+
+
+                    

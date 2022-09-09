@@ -1,0 +1,114 @@
+
+                    /*                                                                          */
+                                /* Stylesheet About Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+
+        #about{
+            display: flex;
+            flex-flow: row;
+            margin: 4rem 10% 20% 10% ; 
+            border-radius: 2px;
+            padding: 0rem;
+        }
+
+                #about p{
+                    margin-right: 3rem;
+                    line-height: 1.8rem;
+                    letter-spacing: 1.5px;
+                }
+
+                        #about p::first-letter{
+                            font-size: 1.5rem;
+                            position: relative;
+                            top: 50px;
+                            margin-top: 3rem;
+                        }
+
+                                .julius img{
+                                    box-shadow:  -1px 5px 50px 24px rgba(112,109,105,0.31) ;
+                                    border-radius: 2px;
+                                    width: 350px;
+                                }
+
+                                        #about figcaption{
+                                            text-align: right;
+                                            margin-top: 2rem;
+                                            line-height: 20px;
+                                            letter-spacing: 1.5px;
+                                        }
+
+
+
+        @media screen and (max-width: 1100px){                     /* Media Quiri Tag */
+
+            #aboutHeader{
+                margin-top: -7rem;
+                margin-bottom: 4rem;
+            }
+
+                    #about{
+                        flex-flow: column;
+                        text-align: center;
+                        margin-top: 0rem;
+                    
+                    }
+            
+                            #about p{
+                                margin: 0;
+                            }
+
+                                    #bildJulius{
+                                        margin-top: 4rem;
+                                        width: 300px;
+                                    }
+
+                                            #about figcaption{
+                                                text-align: center;
+                                            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            #about{
+                margin-bottom: 30%;
+            }
+
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 600px){                     /* Media Quiri Tag */
+
+            #about img{
+                width: 250px;
+            }
+
+            .julius{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #about{
+                margin-bottom: 40%;
+            }
+
+
+
+        }/* Ende Media Quiri*/
+
+        @media screen and (max-width: 450px){                     /* Media Quiri Tag */
+
+            #about img{
+                width: 210px;
+            }
+
+            
+        }/* Ende Media Quiri*/
+
+    }/* Ende Media Screen*/

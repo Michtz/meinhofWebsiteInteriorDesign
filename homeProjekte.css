@@ -1,0 +1,131 @@
+
+                    /*                                                                          */
+                                /* Stylesheet Projekte Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+
+        .projekte{
+            display: grid;
+            grid-template-columns: 33vw 33vw;
+            grid-template-rows:  15vw 15vw 15vw;
+            gap: 2%;
+            column-gap: 1%;
+            justify-content:center;
+            margin-bottom: 28%;
+        }
+    
+            #projectOne{
+                background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg);       
+                background-size: cover;
+                grid-row: 1/3;
+            }
+    
+                #reception{
+                    background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/enpfang.jpg);
+                    background-size: cover;
+                }
+    
+                    #studioRoggwil{
+                        background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/doctorOffice.jpg);
+                        background-size: cover;
+                    }
+    
+                        #empfangBern{
+                            background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/officceBig.jpg);
+                            background-size: cover;
+                        }
+    
+                            #sofaLuzern{
+                                background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/sofaLivingRoomZugeschnitten.jpg);
+                                background-size: cover;
+                            }
+    
+                                .projekteGrid{
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #c9181827;
+                                    box-shadow:  -1px 5px 50px 24px rgba(155, 153, 153, 0.423) ;
+                                    border-radius: 2px;
+                                }
+    
+                                    .projekteGrid p{
+                                        color: #7b737300;
+                                    }
+                                    
+                                        .color h2{
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 0;
+                                            padding-top: 18%;
+                                            font-size: 2vw;
+                                        }
+    
+                                            #projectOne h2{
+                                                    padding-top: 45%;
+                                            }
+    
+                                                .color:hover{
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    /* backdrop-filter: blur(1.8px); */
+                                                    background-color: #695843db;
+                                                    color: #efeded;
+                                                    font-size: 100%;
+                                                }
+
+
+        @media screen and (max-width: 950px){                     /* Media Quiri Tag */
+
+            #mainHeader{
+                margin-top: -8rem !important;
+                margin-bottom: 5rem !important;
+            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            .projekte{
+                display: flex;
+                flex-flow: column;
+                margin: 15%;
+                margin-bottom: 28%;
+            }
+
+                    .projekteGrid{
+                        object-fit: cover;
+                        height: 200%; 
+                        margin-bottom: 5%;
+                    }
+
+                            #dreieckeUnterProjekte{
+                                margin-top: 0rem;
+                            }
+
+                                .color h2{
+                                    padding: 25% !important;
+                                    font-size: 100%;
+                                }
+
+                                    .color{
+                                        backdrop-filter: blur(1.8px);
+                                        height: 100%;
+                                        width: 100%;
+                                        color: #ffffff;
+                                    }
+
+                                        .color:hover{
+                                            height: 100%;
+                                            width: 100%;
+                                            background-color: #69584300;
+                                        }
+
+
+        }/* Ende Media Quiri*/
+    
+    }

@@ -1,0 +1,331 @@
+
+
+
+
+                    /*                                                                          */
+                                /* Stylesheet Titelbild Meinhof Innenarchitektur Home */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+
+        #logo{
+            display: flex;
+            margin: auto;
+            padding-top: 2rem;
+        }
+
+        .titelbild{
+            background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/badehausBeleuchtet.jpg);
+            background-attachment: local;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 -1.7rem;
+            height: 59vw;
+            
+        }
+
+                .titeltext{
+                    text-align: center;
+                    font-size: 2.5rem;
+                    line-height: 3.5rem;
+                    color: #E5E5E5;
+                    position: relative;
+                    top: 4rem;
+                    text-shadow: #7b7373;
+                }
+
+
+            
+                   .fadeText {
+                        animation-name: fadeText;
+                        animation-duration: 4s;
+                    }
+                
+                    @keyframes fadeText {
+                        from {filter: blur(40px)} 
+                        to {filter: blur(0px)} 
+                    }
+
+
+                        #shopButton{
+                            position: relative;
+                            top: -180px;
+                            display: flex;
+                            margin: auto;
+                            font-size: 1.1rem;
+                            font-family:"Julius Sans One" ;
+                            background-color: #ffffff00;
+                            border: 1.5px solid white;
+                            color: #ffffff;
+                            padding: 0.8rem 2rem;
+                        }
+
+                        .fadeButton {
+                            animation-name: fadeButton;
+                            animation-duration: 5s;
+                        }
+                        
+                        @keyframes fadeButton {
+                            from {filter: blur(20px)} 
+                            to {filter: blur(0px)} 
+                        }
+
+
+                                #shopButton:hover{
+                                    background-color: #a05030d4;
+                                   font-weight: bold;
+                                    border-color: rgba(255, 255, 255, 0);
+                                }
+
+
+                                        .iconTop{
+                                            color: #ffffff;
+                                            font-size: 1.9rem;
+                                            display: flex;
+                                            justify-content: center;
+                                            position: relative;
+                                            top: -100px;
+                                        }
+
+                                        .fadeIcon {
+                                            animation-name: fadeIcon;
+                                            animation-delay: 4.5s;
+                                            animation-duration: 1s;
+                                            animation-iteration-count: 6;
+                                        }
+                                        
+                                        @keyframes fadeIcon {
+                                            from {top: -92px;} 
+                                            to {top: -100px;} 
+                                        }
+
+        @media screen and (max-width: 1400px){                     /* Media Quiri Tag */
+
+            #shopButton{
+                top: -140px;
+            }
+            
+            
+            .titeltext{
+                top: 1rem;
+            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 1250px){                     /* Media Quiri Tag */
+        
+            .titelbild{
+                margin: 0 -1.4rem;
+            }
+
+            #shopButton{
+                top: -120px;
+            }
+
+            .titeltext{
+                font-size: 2.2rem;
+                line-height: 3.1rem;
+                top: 0.5rem;
+            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 1150px){                     /* Media Quiri Tag */
+
+            .titeltext{
+                font-size: 2rem;
+                line-height: 2.8rem;
+            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 1050px){                     /* Media Quiri Tag */
+
+            .titelbild{
+                margin: 0 -1.2rem;
+            }
+
+            .titeltext{
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+            }
+
+                    #shopButton{
+                        font-size: 1rem;
+                    }
+
+                            .dreieckenOben{
+                                margin-top: 1px;
+                            }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 950px){                     /* Media Quiri Tag */
+
+            .titelbild{
+                margin: 0 -1.1rem;
+            }
+
+            .titeltext{
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+            }
+
+                    #shopButton{
+                        font-size: 0.8rem;
+                        padding: 0.6rem 1.6rem;
+                    }
+
+                    .dreieckenOben{
+                        margin-top: 12px;
+                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 880px){                     /* Media Quiri Tag */
+
+            #logo{
+                width: 180px;
+            }
+
+                    .titelbild{
+                        margin: 0 -0.9rem;
+                    }
+            
+                            .titeltext{
+                                font-size: 1.6rem;
+                                line-height: 2.2rem;
+                            }
+
+                                    #shopButton{
+                                        position: absolute;
+                                        top: 10px;
+                                        left: 10px;
+                                    }
+        
+                                            .dreieckenOben{
+                                                margin-top: 48px;
+                                            }
+
+                                                    .iconTop{
+                                                        top: -60px;
+                                                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            .titeltext{
+                font-size: 1.3rem;
+                line-height: 2rem;
+            }
+
+                    #shopButton{
+                        font-size: 0.6rem;
+                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 700px){                     /* Media Quiri Tag */
+
+            #logo{
+                width: 120px;
+            }
+                    .titelbild{
+                        margin: 0 -0.7rem;
+                    }
+                
+                            #jumpingPoint{
+                                top: -55px;
+                            }
+
+                                    .dreieckenOben{
+                                        margin-top: 48px;
+                                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 640px){                     /* Media Quiri Tag */
+        
+            #logo{
+                width: 90px;
+                padding-top: 1rem;
+            }
+
+                    .titeltext{
+                        font-size: 1.3rem;
+                        line-height: 1.8rem;
+                    }
+
+                            #shopButton{
+                                font-size: 0.4rem;
+                                margin-bottom: -1rem;
+                                padding: 0.3rem 1.1rem;
+                            }
+
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 550px){                     /* Media Quiri Tag */
+
+            .titelbild{
+                margin: 0 -0.6rem;
+            }
+
+                    .titeltext{
+                        font-size: 1rem;
+                        line-height: 1.6rem;
+                    }
+
+                            #jumpingPoint{
+                                display: none;
+                            }
+
+                                    .dreieckenOben{
+                                        margin-top: 78px;
+                                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 500px){                     /* Media Quiri Tag */
+
+            #logo{
+                width: 100px;
+            }
+            
+                    .titelbild{
+                        margin: 0 -0.5rem;
+                    }
+
+                            #shopButton{
+                                font-size: 0.4rem;
+                                margin-bottom: -1rem;
+                            }
+        
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 440px){                     /* Media Quiri Tag */
+
+            .titeltext{
+                font-size: 0.8rem;
+                line-height: 1.1rem;
+            }
+
+        }/* Ende Media Quiri*/
+
+    }/* Ende Media Screen */
+        
+        

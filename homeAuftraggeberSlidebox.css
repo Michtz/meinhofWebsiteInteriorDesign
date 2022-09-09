@@ -1,0 +1,106 @@
+
+                    /*                                                                          */
+                                /* Stylesheet SlideBox/Auftraggeber Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+                
+        #slideHeader{
+            margin-bottom: -2rem;
+            margin-top: -5rem;
+        }
+
+                .slideShow{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 2rem 10% 15rem 10%;
+                }
+
+                        .slideShow img{
+                            width: 28%;
+                            height: auto;
+                        }
+
+                                #slideGrid{
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr 1fr;
+                                    margin: 0 15%;
+                                    gap: 2rem;
+                                }
+
+
+                                        /* Slideshow container */
+                                        .slideshow-container {
+                                            margin: 0;
+                                            margin-top: 4rem;
+                                            margin-bottom: 12rem;
+                                        }
+                
+                                                /* Fading animation */
+                                                .fade {
+                                                    animation-name: fade;
+                                                    animation-duration: 1.5s;
+                                                }
+                    
+                                                @keyframes fade {
+                                                    from {opacity: .4} 
+                                                    to {opacity: 1}
+                                                }
+
+
+        @media screen and (max-width: 1100px){                     /* Media Quiri Tag */
+
+                #dreieckeUnterSlider{
+                    margin-top: 0;
+                }
+
+        }/* Ende Media Quiri*/
+        
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            .sliderNone{
+                display: none;
+            }
+
+                    #slideGrid{
+                        grid-template-columns: 1fr;
+                        justify-items: center;
+                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            .slideShow{
+                display: grid;
+                grid-template-columns: 75%;
+                justify-content: center;
+                gap: 4rem; 
+            }
+
+                    .mySlides{
+                        width: 90% !important;
+                        margin: auto !important;
+                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 530px){                     /* Media Quiri Tag */
+
+            #slideHeader{
+            
+                margin-top: -7rem;
+            }
+
+            #slideGrid{
+                margin-bottom: -7%;
+            }
+
+
+        }/* Ende Media Quiri*/
+    }
