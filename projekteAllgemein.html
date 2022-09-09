@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+
+<html lang="de" id="top">
+  
+    <head>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
+        crossorigin="anonymous">
+     
+        <script src="https://kit.fontawesome.com/9fdd6d8bcd.js" crossorigin="anonymous"></script>
+     
+        <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@200&display=swap" rel="stylesheet">
+                
+
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500&family=BIZ+UDPGothic&family=Julius+Sans+One&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Roboto+Mono:ital,wght@0,300;1,700&display=swap');
+html{
+                margin: 2vw;
+                margin-top: 0;
+                background-color: white;
+                scroll-behavior: smooth;
+            }
+            
+                    body{
+                        font-family: "Clash Grotesk";
+                        background-color: #E5E5E5;
+                        color: #7b7373;
+                        margin: 0rem;
+                        box-shadow: inset 0px 0px 49px 28px rgba(114, 109, 102, 0.154);
+                    }
+
+                            h1, h2, h3, h4{
+                                font-family: "Julius Sans One";
+                                margin: 0;
+                            } 
+
+                            p{
+                                font-size: 1.2rem;
+                                line-height: 2rem;
+                            }
+
+                                    .header{
+                                        text-align: center;
+                                        margin-bottom: 10%;
+                                        margin-top: 0%;
+                                    }
+
+                                            .header h2{
+                                                font-size: 150%;
+                                                color: #7b7373;
+                                                text-decoration: underline;
+                                             
+                                            }
+
+           
+
+#logo{
+        display: flex;
+        margin: auto;
+        padding-top: 3%;
+    }
+
+            .titelbild{
+                background-image: url(/Users/michael/Desktop/meinhofgmbhwebsite/treppeRund.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+                margin: 0 -2vw;
+
+                height: 110%;
+                
+            }
+
+                    .titeltext{
+                        text-align: center;
+                        margin-top: 5%;
+                        padding-bottom: 15%;
+                        font-size: 360%;
+                        line-height: 130%;
+                        color: #E5E5E5;
+                    }
+
+                    @media screen and (max-width: 560px){                     /* Media Quiri Tag */
+
+                        .titeltext{
+                            font-size: 200%;
+                        }
+                        
+                        #logo{
+                            width: 160px;
+                        }
+
+
+
+                    }/* Ende Media Quiri*/
+
+
+                  
+
+
+/* -------------------------------------------------- */
+                    /* Dreiecke */
+/* -------------------------------------------------- */
+
+    .dreieckenOben, .dreieckUnten{
+        display: flex;
+    }
+       
+            .dreieckLinksOben{
+                position: relative;
+                top: -60px;
+                left: -2vw;
+                width: 60vw; 
+                height: 60px;
+                background-color: #ffffff00; 
+                background: linear-gradient(183deg, transparent 60px, #ffffff 0) top right;
+            }
+
+                    .dreieckRechtsOben{
+                        position: relative;
+                        top: -60px;
+                        right: -2vw;
+                        width: 60vw; 
+                        height: 60px;
+                        background-color: #ffffff00; 
+                        background: linear-gradient(177deg, transparent 60px, #ffffff 0) top left;
+                    
+                    }
+
+                            .dreieckLinksUnten{
+                                position: relative;
+                                top: -60px;
+                                width: 50vw; 
+                                height: 60px;
+                                background-color: #ffffff00; 
+                                background: linear-gradient(3deg, transparent 60px, #ffffff 0) bottom left;
+                                
+                            }
+
+                                    .dreieckRechtsUnten{
+                                        position: relative;
+                                        top: -60px;
+                                        width: 50vw; 
+                                        height: 60px;
+                                        background-color: #ffffff00; 
+                                        background: linear-gradient(357deg, transparent 60px, #ffffff 0) bottom right;
+                                    }
+  
+
+
+
+
+/* ------------------------------------------------------------------- */
+                                    #navButton{
+                                        position: fixed;
+                                        top: 50%;
+                                        color: #7b7373;
+                                        left: 2%;
+                                        padding: 20px;
+                                        border-radius: 50%;
+                                    }
+
+                                    #navButton:hover{
+                                        color: #625858c5;
+                                        background-color: #c7c0c0;
+                                        box-shadow:  -1px 5px 50px 24px rgba(112,109,105,0.31) ;
+                                    }
+
+
+                                    #threePoints{
+                                        padding-right: 1.5px;
+                                        font-size: 30px;
+                                    }
+
+
+
+/* ------------------------------------------------------------------- */
+
+                                    .navProject{
+                                        max-width: 220px;
+                                        position: fixed;
+                                        left: 0;
+                                        top:20%;
+                                        display: none;
+                                    }
+
+                                    .navProject li{
+                                        list-style: none;
+                                        text-align: center;
+                                        padding: 2% 4%;
+                                        margin-bottom: 10%;
+                                        background-color: #fffffff2;
+                                    }
+
+                                    .navProject a{
+                                        text-decoration: none;
+                                        color: #7b7373;
+                                    }
+
+                                    </style>
+<script>
+
+    function openSiteNav(){
+        document.getElementsByClassName("navProject").style.display = "block";
+    }
+
+    </script>
+    <style>
+
+/* ------------------------------------------------------------------- */
+
+
+            .GanzesProjekt h2{
+                text-align: center;
+            }
+
+            .fotoUndBeschrieb{
+                display: flex;
+                margin: 10%;
+                margin-top: 5%;
+            }
+
+            .fotoUndBeschrieb p{
+                margin: 0;
+            }
+
+            .projektbilder{
+                width: 53%;
+              height: 100%;
+              box-shadow:  -1px 5px 50px 24px rgba(112,109,105,0.31) ;
+            }
+
+            .fotoRechts{
+                flex-flow: row-reverse;
+            }
+
+
+            .fotoRechts img{
+                margin-left: 5%;
+               
+            }
+
+            .fotoLinks img{
+                margin-right: 5%;
+            }
+
+
+
+                        
+                  
+
+                            @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+                                 .fotoUndBeschrieb{
+                                    flex-flow: column;
+                                }
+
+                                .projektbilder{
+                                    margin: auto !important;
+                                    width: 65%;
+                                    margin-bottom: 10% !important;
+                                }
+
+                                      
+
+                            }/* Ende Media Quiri*/
+      
+
+
+                            @media screen and (max-width: 600px){                     /* Media Quiri Tag */
+
+                                .projektbilder{
+                                
+                                width: 85%;
+                                }
+
+                                    
+
+                            }/* Ende Media Quiri*/
+
+          
+        
+                        
+
+
+/* -------------------------------------------------------------- */
+                    /* Footer */
+/* -------------------------------------------------------------- */
+
+.footer{
+                text-align: center;
+                background-color: #989592;
+                padding-top: 3rem;
+                margin: 0;
+                color: #E5E5E5;
+            }
+
+                .footer p{
+                    font-size: 0.8rem;
+                }
+
+                    .footer h3{
+                        font-size: 1rem;
+                    }
+
+                        .rechtliches{
+                            display: flex;
+                            flex-flow: row;
+                            position: relative;
+                            top: -50px;
+                            left: 80px;
+                            max-width: 90%;
+                        }
+
+                            .mittleresIcon{
+                                margin: 0 2rem;
+                            }
+
+                                .impressum{
+                                    margin-right: 3rem;
+                                }
+
+                                    .datenschutz, .impressum{
+                                        padding: 0rem 0.5rem;
+                                        border-radius: 2px;
+                                    }
+                                        .datenschutz:hover, .impressum:hover{
+                                            color: #3129297b;
+                                            font-size: 1.2rem;
+                                        }
+                                    
+                                            .icon:hover{
+                                                color: #3129297b;
+                                            }
+
+
+        @media screen and (max-width: 1150px){                     /* Media Quiri Tag */
+
+            .rechtliches{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin: auto;
+                padding-bottom: 2rem;
+                top: 0;
+                left: 0;
+            }
+
+                    .impressum{
+                        text-align: right;
+                        margin-right: 2rem;
+                    }
+
+                            .datenschutz{
+                                text-align: left;
+                                margin-left: 2rem;
+                            }
+
+                                    .rechtliches h3{
+                                        font-size: 0.7rem;
+                                    }
+
+        }/* Ende Media Quiri*/
+
+        
+* {box-sizing: border-box;}
+
+
+/* -------------------------------------------------------------- */
+                    /* Bildershow */
+/* -------------------------------------------------------------- */
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modalContent {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 100vw;
+}
+
+/* Kreuz zum Schliessen */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Vor und Zurück */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Hintergrund von Umschaltpfeilen */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  margin-bottom: -5px;
+}
+
+
+         </style>
+        
+    </head>
+
+    <body>
+
+        <div class="titelbild">
+            <header>
+                <img id="logo"  style="box-shadow: none;"  onclick="goHome()" src="/Users/michael/Desktop/meinhofgmbhwebsite/LOGO.ALLGEMEIN.SW.WEISS.png" width="200px">
+            </header>
+
+            <div class="titeltext">
+                <h1 onclick="sliderImg()">Projekte</h1>
+            </div>
+
+         
+          
+        </div>
+
+        <div class="dreieckenOben">
+            <div class="dreieckLinksOben"></div>
+            <div class="dreieckRechtsOben"></div>
+        </div>
+        <div class="dreieckUnten">
+            <div class="dreieckLinksUnten"></div>
+            <div class="dreieckRechtsUnten"></div>
+        </div>
+
+
+        <div class="header">
+            <h3>Projekte</h3>
+            <h2>Büro in Horw</h2>
+        </div>
+
+        <div id="navButton">
+            <i id="threePoints" class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+            <i  id="threePoints" class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+            <i  id="threePoints" class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+
+        </div>
+
+        <nav>
+            <ul class="navProject">
+                <li>
+                    <a href=""><h4>Büro, Horw</h4></a>
+                </li>
+                <li>
+                    <a href=""><h4>Büro, Videolution</h4></a>
+                </li>
+                <li>
+                    <a href=""><h4>Studio, Roggwil</h4></a>
+                </li>
+                <li>
+                    <a href=""><h4>Empfang, Bern</h4></a>
+                </li>
+                <li>
+                    <a href=""><h4>Wohnung, Luzern</h4></a>
+                </li>
+            </ul>
+        </nav>
+
+<!-- Projekt 1 -->
+    <div class="GanzesProjekt">
+
+        <h2>Der Beginn</h2>
+
+        <div class="fotoUndBeschrieb fotoRechts">
+            <!-- Projekt 1 Bild 1 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+             
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                    </p> 
+        </div>
+
+
+        <h2>Die Entwicklung</h2>
+        <div class="fotoUndBeschrieb fotoLinks">
+            <!-- Projekt 1 Bild 2 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+               
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+                
+        </div>
+
+
+        <h2>Das Endprodukt</h2>
+        <div class="fotoUndBeschrieb fotoRechts">
+          <!-- Projekt 1 Bild 3 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+            
+                
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+               
+        </div>
+        
+    </div>
+
+        
+        <div class="dreieckenOben">
+            <div class="dreieckLinksOben"></div>
+            <div class="dreieckRechtsOben"></div>
+        </div>
+        <div class="dreieckUnten">
+            <div class="dreieckLinksUnten"></div>
+            <div class="dreieckRechtsUnten"></div>
+        </div>
+
+        <div class="header" id="projectTow">
+            <h3>Projekte</h3>
+            <h2>Büro, Videolution</h2>
+        </div>
+       
+
+        <!-- Projekt 2 -->
+        <div class="GanzesProjekt">
+
+            <h2>Der Beginn</h2>
+    
+            <div class="fotoUndBeschrieb fotoRechts">
+                  <!-- Projekt 2 Bild 1 -->
+                <img class="projektbilder" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+                 
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                            non laboriosam quos corrupti cum dolores provident a tempora, 
+                            repellat autem nam adipisci et odio.
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                            non laboriosam quos corrupti cum dolores provident a tempora, 
+                            repellat autem nam adipisci et odio.
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                            non laboriosam quos corrupti cum dolores provident a tempora, 
+                            repellat autem nam adipisci et odio.
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                            non laboriosam quos corrupti cum dolores provident a tempora, 
+                            repellat autem nam adipisci et odio.
+                        </p>
+    
+                       
+            </div>
+            <h2>Die Entwicklung</h2>
+            <div class="fotoUndBeschrieb fotoLinks">
+                <!-- Projekt 2 Bild 2 -->
+                <img class="projektbilder" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+                   
+    
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                    </p>
+    
+                    
+            </div>
+    
+    
+            <h2>Das Endprodukt</h2>
+            <div class="fotoUndBeschrieb fotoRechts">
+              <!-- Projekt 2 Bild 3 -->
+                <img class="projektbilder" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+                
+                    
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                    </p>
+    
+                   
+            </div>
+            
+        </div>
+    
+    <div class="dreieckenOben">
+        <div class="dreieckLinksOben"></div>
+        <div class="dreieckRechtsOben"></div>
+    </div>
+    <div class="dreieckUnten">
+        <div class="dreieckLinksUnten"></div>
+        <div class="dreieckRechtsUnten"></div>
+    </div>
+
+
+
+    <div class="header" id="projectThree">
+        <h3>Projekte</h3>
+        <h2> Studio, Roggwil</h2>
+    </div>
+
+    <!-- Projekt 3 -->
+    <div class="GanzesProjekt">
+
+        <h2>Der Beginn</h2>
+
+        <div class="fotoUndBeschrieb fotoRechts">
+            <!-- Projekt 3 Bild 1 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+             
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                        non laboriosam quos corrupti cum dolores provident a tempora, 
+                        repellat autem nam adipisci et odio.
+                    </p>
+
+                   
+        </div>
+        <h2>Die Entwicklung</h2>
+        <div class="fotoUndBeschrieb fotoLinks">
+              <!-- Projekt 3 Bild 2 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+               
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+                
+        </div>
+
+
+        <h2>Das Endprodukt</h2>
+        <div class="fotoUndBeschrieb fotoRechts">
+            <!-- Projekt 3 Bild 3 -->
+            <img class="projektbilder" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+            
+                
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+               
+        </div>
+        
+    </div>
+<div class="dreieckenOben">
+    <div class="dreieckLinksOben"></div>
+    <div class="dreieckRechtsOben"></div>
+</div>
+<div class="dreieckUnten">
+    <div class="dreieckLinksUnten"></div>
+    <div class="dreieckRechtsUnten"></div>
+</div>
+
+
+<div class="header" id="projectFour">
+    <h3>Projekte</h3>
+    <h2>Empfang, Bern</h2>
+</div>
+
+  <!-- Projekt 4 -->
+<div class="GanzesProjekt">
+
+    <h2>Der Beginn</h2>
+
+    <div class="fotoUndBeschrieb fotoRechts">
+          <!-- Projekt 4 Bild 1 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+         
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+               
+    </div>
+    <h2>Die Entwicklung</h2>
+    <div class="fotoUndBeschrieb fotoLinks">
+           <!-- Projekt 4 Bild 2 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+           
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+            </p>
+
+            
+    </div>
+
+
+    <h2>Das Endprodukt</h2>
+    <div class="fotoUndBeschrieb fotoRechts">
+         <!-- Projekt 4 Bild 3 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+        
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+            </p>
+
+           
+    </div>
+    
+</div>
+
+<div class="dreieckenOben">
+    <div class="dreieckLinksOben"></div>
+    <div class="dreieckRechtsOben"></div>
+</div>
+<div class="dreieckUnten">
+    <div class="dreieckLinksUnten"></div>
+    <div class="dreieckRechtsUnten"></div>
+</div>
+<div class="header" id="projectFive">
+    <h3>Projekte</h3>
+    <h2>Wohnung, Luzern</h2>
+</div>
+
+
+   <!-- Projekt 5 -->
+<div class="GanzesProjekt">
+
+    <h2>Der Beginn</h2>
+
+    <div class="fotoUndBeschrieb fotoRechts">
+           <!-- Projekt 5 Bild 1 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+         
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                    non laboriosam quos corrupti cum dolores provident a tempora, 
+                    repellat autem nam adipisci et odio.
+                </p>
+
+               
+    </div>
+    <h2>Die Entwicklung</h2>
+    <div class="fotoUndBeschrieb fotoLinks">
+        <!-- Projekt 5 Bild 2 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+           
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+            </p>
+
+            
+    </div>
+
+
+    <h2>Das Endprodukt</h2>
+    <div class="fotoUndBeschrieb fotoRechts">
+      <!-- Projekt 5 Bild 3 -->
+        <img class="projektbilder" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" src="/Users/michael/Desktop/meinhofgmbhwebsite/officeBeispiel.jpg">
+        
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing 
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Quia ipsam perspiciatis sequi quis dolorem molestias 
+                non laboriosam quos corrupti cum dolores provident a tempora, 
+                repellat autem nam adipisci et odio.
+            </p>
+
+           
+    </div>
+</div>
+    
+         
+        <footer class="footer">
+            <div class="socialmedia">
+                <i class="fab fa-whatsapp icon" onclick="openPhoneNumber()"></i>
+                    <i class="fa-brands fa-linkedin mittleresIcon icon" onclick="openLinkedin()"></i>
+                        <i class="fa-brands fa-instagram icon" onclick="openInsta()"></i>
+            </div>
+
+            <div class="copyright">
+                <p>
+                  Copyright <script>document.write(new Date().getFullYear());</script>	&copy All rights Reserved, by Meinhof GmbH
+                </p>
+            </div>
+            <div class="rechtliches">
+
+                <div class="impressum">
+                    <h3 onclick="openImpressum()">Impressum</h3>
+                </div>
+
+                <div class="datenschutz">
+                    <h3 onclick="openDatenschutz()">Datenschutz</h3>
+                </div>
+            </div>
+        </footer>
+      
+
+
+       
+       
+
+        
+
+     
+        
+
+
+<!-- Bilder Vollbild-Ansicht -->
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modalContent">
+        
+            <!-- Projekt 1 Bild 1 -->
+            <div class="mySlides">
+                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/stuhlDesign.jpg" style="width:100%">
+            </div>
+        
+                    <!-- Projekt 1 Bild 2 -->
+                    <div class="mySlides">
+                        <img src="/Users/michael/Desktop/meinhofgmbhwebsite/modernBathroom.jpg" style="width:100%">
+                    </div>
+        
+                            <!-- Projekt 1 Bild 3 -->
+                            <div class="mySlides">
+                                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/officceBig.jpg" style="width:100%">
+                            </div>
+            
+
+            <!-- Projekt 2 Bild 1 -->
+            <div class="mySlides">
+                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/wohnraum.jpg" style="width:100%">
+            </div>
+            
+                    <!-- Projekt 2 Bild 2 -->
+                    <div class="mySlides">
+                        <img src="/Users/michael/Desktop/meinhofgmbhwebsite/wohnraum.jpg" style="width:100%">
+                    </div>
+          
+                            <!-- Projekt 2 Bild 3 -->
+                            <div class="mySlides">
+                                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/wohnraum.jpg" style="width:100%">
+                            </div>
+                    
+
+            <!-- Projekt 3 Bild 1 -->
+            <div class="mySlides">
+                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/treppeRund.jpg" style="width:100%">
+            </div>
+              
+                    <!-- Projekt 3 Bild 2 -->
+                    <div class="mySlides">
+                        <img src="/Users/michael/Desktop/meinhofgmbhwebsite/treppeRund.jpg" style="width:100%">
+                    </div>
+            
+                            <!-- Projekt 3 Bild 3 -->
+                            <div class="mySlides">
+                                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/treppeRund.jpg" style="width:100%">
+                            </div>
+                        
+
+            <!-- Projekt 4 Bild 1 -->
+            <div class="mySlides">
+                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/stuhlDesign.jpg" style="width:100%">
+            </div>
+          
+                    <!-- Projekt 4 Bild 2 -->
+                    <div class="mySlides">
+                        <img src="/Users/michael/Desktop/meinhofgmbhwebsite/stuhlDesign.jpg" style="width:100%">
+                    </div>
+              
+                            <!-- Projekt 4 Bild 3 -->
+                            <div class="mySlides">
+                                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/stuhlDesign.jpg" style="width:100%">
+                            </div>
+
+
+            <!-- Projekt 5 Bild 1 -->
+            <div class="mySlides">
+                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/sofaLivingRoom.jpg" style="width:100%">
+            </div>
+          
+                    <!-- Projekt 5 Bild 2 -->
+                    <div class="mySlides">
+                        <img src="/Users/michael/Desktop/meinhofgmbhwebsite/sofaLivingRoom.jpg" style="width:100%">
+                    </div>
+              
+                            <!-- Projekt 5 Bild 3 -->
+                            <div class="mySlides">
+                                <img src="/Users/michael/Desktop/meinhofgmbhwebsite/sofaLivingRoom.jpg" style="width:100%">
+                            </div>
+
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+           
+        
+        
+          </div>
+        </div>
+        
+        <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
+<script>
+    function sliderImg(){
+        document.getElementsByClassName("titelbild").style.backgroundImage = "url(/Users/michael/Desktop/meinhofgmbhwebsite/metalSchwarzGebürstet.jpeg)";
+    }
+
+                        function goHome(){
+                            window.location.href ='/Users/michael/Desktop/meinhofgmbhwebsite/meinhofMeineVersion.html';
+                        }
+
+                        function openImpressum(){
+                            window.location.href ='/Users/michael/Desktop/meinhofgmbhwebsite/meinhofImpressum.html';
+                        }
+
+                        function openDatenschutz(){
+                            window.location.href ='/Users/michael/Desktop/meinhofgmbhwebsite/meinhofDatenschutz.html';
+                        }
+
+                        function openPhoneNumber(){
+                            window.location.href = 'tel:+41789715031';
+                        }
+
+                        function openLinkedin(){
+                            window.location.href ='https://www.linkedin.com/in/julius-meinhof-9b361910a/';
+                        }
+
+                        function openInsta(){
+                            window.location.href ='### Link von Instagram Einfügen ###';
+                        }
+
+                        function goToBueroHorw(){
+                            window.location.href ='/Users/michael/Desktop/meinhofgmbhwebsite/projekteBueroHorw.html';
+                        }
+
+
+                        // function bigPicture(imgs) {
+                        //     var expandImg = document.getElementById("expandedImg");
+                        //     var imgText = document.getElementById("imgtext");
+                        //         expandImg.src = imgs.src;
+                        //         imgText.innerHTML = imgs.alt;
+                        //         expandImg.parentElement.style.display = "block";
+                        // }
+
+</script>
+    
+    </body>
+</html>

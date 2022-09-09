@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="de" id="top">
+  
+    <head>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link   rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
+        crossorigin="anonymous">
+
+ <script src="https://kit.fontawesome.com/9fdd6d8bcd.js" crossorigin="anonymous"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500&family=BIZ+UDPGothic&family=Julius+Sans+One&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Roboto+Mono:ital,wght@0,300;1,700&display=swap');
+    
+    body{
+        font-family: "Julius Sans One";
+        background-color: #E5E5E5;
+        color: #7b7373;
+        margin: 0;
+        text-align: center;
+    }
+
+    #logo{
+        display: flex;
+        margin: 3rem auto;
+    }
+
+        .impressumBox{
+            text-align: center;
+            margin: 5rem 10%;
+        }
+
+/* -------------------------------------------------------------------------- */
+            /* Einstellungen SlideDown-hover Funktion von Button */
+/* -------------------------------------------------------------------------- */
+
+
+            /* Button gestalten SlideDown */
+            .buttonSlideDown{
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                background-color: #E5E5E5;
+                color: #7b7373;
+                border: 1px solid rgba(44, 42, 42, 0.758);
+                display: flex;
+               margin: auto;
+               margin-bottom: 4rem;
+            }
+
+            .buttonSlideDown:hover{
+                background-color: #4e4848cc;
+                color: #E5E5E5;
+            }
+
+
+/* -------------------------------------------------------------------------- */
+                         /* Einstellungen Footer */
+/* -------------------------------------------------------------------------- */
+
+    .footer{
+        text-align: center;
+        background-color: #989592;
+        padding-top: 3rem;
+        margin: 0;
+        color: #E5E5E5;
+    }
+
+        .footer p{
+            font-size: 0.8rem;
+        }
+
+            .footer h3{
+                font-size: 1rem;
+            }
+
+    .rechtliches{
+        display: flex;
+        flex-flow: row;
+        position: relative;
+        top: -50px;
+        left: 80px;
+        max-width: 90%;
+    }
+
+        .mittleresIcon{
+            margin: 0 2rem;
+        }
+
+            .impressum{
+                margin-right: 3rem;
+            }
+
+                .datenschutz, .impressum{
+                    padding: 0rem 0.5rem;
+                    border-radius: 2px;
+                }
+
+                    .datenschutz:hover, .impressum:hover{
+                        color: #3129297b;
+                        font-size: 1.2rem;
+                    }
+                
+                        .icon:hover{
+                            color: #3129297b;
+                        }
+
+   
+
+</style>
+</head>
+
+<body>
+<header>
+    <img id="logo"  onclick="goHome()" src="/Users/michael/Desktop/meinhofgmbhwebsite/LOGO.ALLGEMEIN.SW.WEISS.png" width="200px">
+</header>
+<hr>
+        
+    
+        <div class="impressumBox">
+            <h1>Impressum</h1><br>
+         
+                <h2>WEBSEITENBETREIBER</h2>
+                    <h3>Julius Meinhof</h3><br>
+                    <br>&nbsp<br>
+                        <h2>INFORMATIONEN ÜBER DAS UNTERNEHMEN</h2>
+                            <h3>Gesellschaft mit beschränkter Haftung (GmbH)</h3>
+                                <h3>Grisigenstrasse 12</h3>
+                                    <h3>Horw , 6048</h3>
+                                        <h3>julius@meinhof.ch</h3>
+                                            <h3>+41 (0)789715031</h3><br>
+                                            <br>&nbsp<br>
+                                                <h2>INFORMATIONEN ÜBER DIE UNTERNEHMENSREGISTRIERUNG</h2>
+                                                    <h3>CHE-239.220.789</h3><br>
+                                                    <br>&nbsp<br>
+        </div>
+        <div>
+            <button class="buttonSlideDown" onclick="backHome()">Back Home</button>
+           
+        </div>
+
+       
+
+        <footer class="footer">
+            <div class="socialmedia">
+                <i class="fab fa-whatsapp icon" onclick="openPhoneNumber()"></i>
+                    <i class="fa-brands fa-linkedin mittleresIcon icon" onclick="openLinkedin()"></i>
+                        <i class="fa-brands fa-instagram icon" onclick="openInsta()"></i>
+            </div>
+
+            <div class="copyright">
+                <p>
+                  Copyright <script>document.write(new Date().getFullYear());</script>	&copy All rights Reserved, by Meinhof GmbH
+                </p>
+            </div>
+            <div class="rechtliches">
+
+                <div class="impressum">
+                    <h3 onclick="openImpressum()">Impressum</h3>
+                </div>
+
+                <div class="datenschutz">
+                    <h3 onclick="openDatenschutz()">Datenschutz</h3>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+            function openImpressum(){
+                window.open('/Users/michael/Desktop/meinhofgmbhwebsite/meinhofImpressum.html');
+            }
+
+            function openDatenschutz(){
+                window.open('/Users/michael/Desktop/meinhofgmbhwebsite/meinhofDatenschutz.html');
+            }
+
+            function backHome(){
+                window.open('/Users/michael/Desktop/meinhofgmbhwebsite/meinhofHome.html');
+            }
+
+            function openPhoneNumber(){
+                window.location.href = 'tel:+41789715031';
+            }
+
+            function openLinkedin(){
+                window.open('https://www.linkedin.com/in/julius-meinhof-9b361910a/');
+            }
+
+            function openInsta(){
+                window.open('###Link von Instagram Einfügen');
+            }
+
+        </script>
+
+
+
+    
+    </body>
+</html>
