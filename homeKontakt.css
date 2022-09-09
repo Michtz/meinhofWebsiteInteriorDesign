@@ -1,0 +1,114 @@
+                     /*                                                                          */
+                                /* Stylesheet Kontakt Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+       
+        /* Macht Maps Grau/ Weiss */
+        .google-map {
+            height: 25rem;
+            position: relative;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: gray;
+        }
+
+                .map{
+                    display: flex;
+                    flex-flow: row;
+                    margin: 4rem;
+                    margin-left: 8rem;
+                    margin-top: -2rem;
+                    border-radius: 2px;
+                }
+
+                        .adress{
+                            margin-bottom: 73px;
+                            margin-top: -53px;      
+                        }
+
+                                .info{
+                                    margin-left: 6rem;
+                                    margin-top: 2rem;
+                                }
+
+                                        iframe{
+                                            margin-left: 0rem;
+                                        }
+
+
+        @media screen and (max-width: 1150px){                     /* Media Quiri Tag */
+
+            #headerLocation{
+                margin-top: -7rem !important;
+                margin-bottom: -2rem;
+            }
+
+                    .info{
+                        margin-left: 3rem;
+                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            .map{
+                flex-flow: column-reverse;
+                margin: 3rem;
+            }
+
+                    .info{
+                        display: flex;
+                        flex-flow: row;
+                        margin: auto;
+                    }
+
+                            .adress{
+                                margin: 0;
+                                margin-right: 6rem;
+                            }
+
+                            .kontakt{
+                                text-align: right;
+                            }
+
+                                    iframe{
+                                        height: 200px !important;
+                                        margin: auto;
+                                        margin-top: 4rem;
+                                    }
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 650px){                     /* Media Quiri Tag */
+
+            .adress{
+                margin-right: 2rem;
+            }
+
+                    iframe{
+                        width: 300px;
+                    }
+
+        }/* Ende Media Quiri*/
+
+        @media screen and (max-width: 450px){                     /* Media Quiri Tag */
+
+            .map{
+                margin: 1rem;
+                margin-bottom: 2rem;
+            }
+
+                    iframe{
+                        width: 280px;
+                    }
+
+        }/* Ende Media Quiri*/
+
+    }

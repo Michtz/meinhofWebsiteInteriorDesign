@@ -1,0 +1,88 @@
+
+                    /*                                                                          */
+                                /* Stylesheet Main Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+
+        #mainpoints{
+            display: grid;
+            grid-template-columns: 
+                        minmax(200px, 300px) 
+                        minmax(200px, 300px) 
+                        minmax(200px, 300px);
+                    grid-template-rows: 
+                        minmax(40px, 60px) 
+                        minmax(100px, 150px);
+            grid-template-rows: 0.4fr 1fr;
+            margin: 0rem 12% 22% 12% ; 
+            justify-content: center;
+            gap: 4rem;
+            text-align: center;
+            border-radius: 2px;
+        }
+
+                .icons{
+                    color: #7b7373ce;
+                    font-size: 4.5rem;
+                }
+
+
+        @media screen and (max-width: 1100px){                     /* Media Quiri Tag */
+
+            #mainpoints{
+                grid-template-columns: 
+                    minmax(100px, 200px) 
+                    minmax(100px, 200px) 
+                    minmax(100px, 200px);
+                    
+            }
+
+            #mainpoints h2{
+                font-size: 1rem;
+            }
+
+            #mainpoints p{
+                font-size: 0.9rem;
+            }
+
+        
+
+        }/* Ende Media Quiri*/
+
+
+        @media screen and (max-width: 768px){                     /* Media Quiri Tag */
+
+            #mainpointsHeader{
+            margin-top: -7rem;
+            }
+
+                    #mainpoints{
+                        grid-template-columns: 75%;
+                        gap: 0;
+                        margin: 0;
+                        margin-top: -3rem;
+                        margin-bottom: 30%;
+                    }
+
+                            #individualitaet{
+                                grid-row: 2/3;
+                                margin-top: 1rem;
+                                margin-bottom: 3rem;
+                            }
+
+                                    #funktionalitaet{
+                                        grid-row: 4/5;
+                                        margin-top: 1rem;
+                                        margin-bottom: 3rem;
+                                    }
+
+                                            #dreieckUnterMainPoints{
+                                                margin-top: 9rem;
+                                            }
+
+        }/* Ende Media Quiri*/
+                        
+    } /* Ende Media Screen Tag */
