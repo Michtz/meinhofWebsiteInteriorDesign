@@ -1,0 +1,53 @@
+
+                    /*                                                                          */
+                                /* Stylesheet Dreiecke Meinhof Innenarchitektur Allgemein */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+    @media screen {
+                
+        .dreieckenOben, .dreieckUnten{
+            display: flex;
+        }
+        
+                .dreieckLinksOben{
+                    position: relative;
+                    top: -138px;
+                    left: -2vw;
+                    width: 60vw; 
+                    height: 60px;
+                    background-color: #ffffff00; 
+                    background: linear-gradient(183deg, transparent 60px, #ffffff 0) top right;
+                }
+
+                .dreieckRechtsOben{
+                    position: relative;
+                    top: -138px;
+                    right: -2vw;
+                    width: 60vw; 
+                    height: 60px;
+                    background-color: #ffffff00; 
+                    background: linear-gradient(177deg, transparent 60px, #ffffff 0) top left;
+                
+                }
+
+                        .dreieckLinksUnten{
+                            position: relative;
+                            top: -138px;
+                            width: 50vw; 
+                            height: 60px;
+                            background-color: #ffffff00; 
+                            background: linear-gradient(3deg, transparent 60px, #ffffff 0) bottom left;
+                            
+                        }
+
+                        .dreieckRechtsUnten{
+                            position: relative;
+                            top: -138px;
+                            width: 50vw; 
+                            height: 60px;
+                            background-color: #ffffff00; 
+                            background: linear-gradient(357deg, transparent 60px, #ffffff 0) bottom right;
+                        }
+    }
