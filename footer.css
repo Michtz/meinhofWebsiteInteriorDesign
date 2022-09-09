@@ -1,0 +1,90 @@
+
+
+                    /*                                                                          */
+                                /* Stylesheet Projekte Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+                    @media screen {
+
+
+/* -------------------------------------------------------------- */
+                    /* Footer */
+/* -------------------------------------------------------------- */
+
+.footer{
+    text-align: center;
+    background-color: #989592;
+    padding-top: 3rem;
+    margin: 0;
+    color: #E5E5E5;
+}
+
+    .footer p{
+        font-size: 0.8rem;
+    }
+
+        .footer h3{
+            font-size: 1rem;
+        }
+
+            .rechtliches{
+                display: flex;
+                flex-flow: row;
+                position: relative;
+                top: -50px;
+                left: 80px;
+                max-width: 90%;
+            }
+
+                .mittleresIcon{
+                    margin: 0 2rem;
+                }
+
+                    .impressum{
+                        margin-right: 3rem;
+                    }
+
+                        .datenschutz, .impressum{
+                            padding: 0rem 0.5rem;
+                            border-radius: 2px;
+                        }
+                            .datenschutz:hover, .impressum:hover{
+                                color: #3129297b;
+                                font-size: 1.2rem;
+                            }
+                        
+                                .icon:hover{
+                                    color: #3129297b;
+                                }
+
+
+@media screen and (max-width: 1150px){                     /* Media Quiri Tag */
+
+.rechtliches{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-bottom: 2rem;
+    top: 0;
+    left: 0;
+}
+
+        .impressum{
+            text-align: right;
+            margin-right: 2rem;
+        }
+
+                .datenschutz{
+                    text-align: left;
+                    margin-left: 2rem;
+                }
+
+                        .rechtliches h3{
+                            font-size: 0.7rem;
+                        }
+
+}/* Ende Media Quiri*/
+  
+                    }

@@ -1,0 +1,41 @@
+       
+            /*                                                                          */
+                                /* Stylesheet Projekte Meinhof Innenarchitektur Home-Seite */
+                                            /* Michael Venetz Sept. 2022 */
+                    /*                                                                          */
+
+
+                    @media screen {
+    
+            html{
+                margin: 2vw;
+                margin-top: 0;
+                background-color: white;
+                scroll-behavior: smooth;
+            }
+            
+                    body{
+                        font-family: "Clash Grotesk";
+                        background-color: #E5E5E5;
+                        color: #7b7373;
+                        margin: 0rem;
+                        box-shadow: inset 0px 0px 49px 28px rgba(114, 109, 102, 0.154);
+                    }
+
+                            h1, h2, h3, h4{
+                                font-family: "Julius Sans One";
+                            }
+
+                                    .header{
+                                        text-align: center;
+                                        margin-bottom: 6rem;
+                                        margin-top: -3rem;
+                                    }
+
+                                            .header h2{
+                                                font-size: 1.5rem;
+                                                color: #7b7373;
+                                            }
+
+           
+                                        }
